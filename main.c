@@ -12,8 +12,10 @@
 #ifndef TEST
 int main(int argc, const char * argv[]) {
     char * hello = greeting();
+    char * second = greeting();
 
     printf("%s\n", hello);
+    printf("%s\n", second);
     return 0;
 }
 #endif
